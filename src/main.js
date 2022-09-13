@@ -3,7 +3,7 @@
 
 
 document.getElementById("get-activity").addEventListener("click", function() {
-  fetch("http://www.boredapi.com/api/activity/")
+  fetch("https://apis.scrimba.com/bored/api/activity")
     .then(response => response.json())
     .then(data => {
       console.log(data)
